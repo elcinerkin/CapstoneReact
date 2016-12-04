@@ -1711,8 +1711,7 @@ module.exports =
           null,
           _react2.default.createElement(_Header2.default, null),
           this.props.children,
-          _react2.default.createElement(_Feedback2.default, null),
-          _react2.default.createElement(_Footer2.default, null)
+          _react2.default.createElement(_Feedback2.default, null)
         ) : this.props.children;
       }
     }]);
@@ -1955,31 +1954,7 @@ module.exports =
     return _react2.default.createElement(
       'div',
       { className: _Feedback2.default.root },
-      _react2.default.createElement(
-        'div',
-        { className: _Feedback2.default.container },
-        _react2.default.createElement(
-          'a',
-          {
-            className: _Feedback2.default.link,
-            href: 'https://gitter.im/kriasoft/react-starter-kit'
-          },
-          'Ask a question'
-        ),
-        _react2.default.createElement(
-          'span',
-          { className: _Feedback2.default.spacer },
-          '|'
-        ),
-        _react2.default.createElement(
-          'a',
-          {
-            className: _Feedback2.default.link,
-            href: 'https://github.com/kriasoft/react-starter-kit/issues/new'
-          },
-          'Report an issue'
-        )
-      )
+      _react2.default.createElement('div', { className: _Feedback2.default.container })
     );
   } /**
      * React Starter Kit (https://www.reactstarterkit.com/)
@@ -2091,7 +2066,7 @@ module.exports =
           _react2.default.createElement(
             'h4',
             { className: _Header2.default.bannerTitle },
-            'React'
+            'Using React'
           )
         )
       )

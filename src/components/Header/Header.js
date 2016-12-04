@@ -23,7 +23,7 @@ function Header() {
           <span className={s.brandTxt}>Capstone Project</span>
         </Link>
         <div className={s.banner}>
-          <h4 className={s.bannerTitle}>React</h4>
+          <h4 className={s.bannerTitle}>Using React</h4>
         </div>
       </div>
     </div>
